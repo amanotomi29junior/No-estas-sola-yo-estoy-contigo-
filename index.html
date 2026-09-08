@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para Duby, con amor</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="particulas"></div>
+
+  <main class="contenedor">
+
+    <section class="inicio" id="inicio">
+      <p class="etiqueta">Una pequeña sorpresa para ti</p>
+
+      <h1>Para Duby</h1>
+
+      <p class="subtitulo">
+        Con todo mi amor, paciencia y cariño.
+      </p>
+
+      <div class="sobre-contenedor">
+        <div class="sobre" id="sobre">
+          <div class="sobre-parte sobre-atras"></div>
+          <div class="carta-mini">
+            <span>Para ti</span>
+          </div>
+          <div class="sobre-parte sobre-frente"></div>
+          <div class="triangulo"></div>
+          <div class="sello tulipan-sello">🌷</div>
+        </div>
+      </div>
+
+      <button class="boton-principal" id="abrirCarta">
+        Abrir mi carta
+      </button>
+
+      <p class="instruccion">
+        Haz clic en el sobre cuando estés lista
+      </p>
+    </section>
+
+    <section class="carta-seccion oculta" id="cartaSeccion">
+
+      <div class="decoracion">✦</div>
+
+      <article class="carta">
+        <p class="fecha">Para la persona que amo</p>
+
+        <h2>Mi querida Duby:</h2>
+
+    <div class="texto-carta">
+  <p>
+    Sé que últimamente no has tenido días fáciles y que en tu casa han
+    ocurrido muchas cosas que pueden hacerte sentir cansada, triste o sin
+    ánimos. Quiero que sepas que no tienes que atravesar todo eso sola.
+  </p>
+
+  <p>
+    Tal vez ahora las cosas parezcan difíciles y sientas que todo pesa
+    demasiado, pero quiero recordarte que todo va a estar bien. Vamos a
+    estar bien.
+  </p>
+
+  <p>
+    No tienes que fingir que todo está bien conmigo ni esconder lo que
+    sientes. Puedes contarme lo que necesites, cuando lo necesites. No
+    siempre tendré la solución para cada problema, pero sí puedo escucharte,
+    apoyarte y quedarme a tu lado.
+  </p>
+
+  <p>
+    Te amo muchísimo y te amaré siempre, incluso en esos momentos en los
+    que no puedas sentirte bien contigo misma o cuando te cueste recordar
+    cuánto vales. Mi amor por ti no depende de que tengas días perfectos ni
+    de que siempre estés sonriendo.
+  </p>
+
+  <p>
+    Incluso en tus días más difíciles sigues siendo una persona maravillosa,
+    valiosa y especial para mí. Lo que estás viviendo no define quién eres
+    ni disminuye todo lo bonito que hay en ti.
+  </p>
+
+  <p>
+    También quiero ser sincero contigo: sé que últimamente no he estado
+    aportando todo lo que debería a nuestra relación, y lo lamento. No
+    quiero que pienses que no me importas, porque me importas muchísimo.
+  </p>
+
+  <p>
+    Quiero esforzarme más por estar presente, escucharte y apoyarte como
+    mereces. No prometo tener siempre las palabras correctas ni poder
+    solucionar todo lo que ocurre, pero sí puedo prometerte que quiero
+    acompañarte y hacerte sentir querida.
+  </p>
+
+  <p>
+    Espero que esta pequeña sorpresa te ayude a distraerte aunque sea un
+    ratito. Y si hoy no tienes fuerzas para sonreír, no pasa nada. Puedes
+    descansar, desahogarte o simplemente quedarte en silencio. Yo seguiré
+    aquí, queriéndote.
+  </p>
+
+  <p>
+    En fin, amor: te amo. Te amo más de lo que a veces sé explicar y siempre
+    voy a querer verte bien. No estás sola. Estoy aquí para ti en los días
+    buenos, en los días difíciles y en todos los que todavía nos quedan por
+    vivir.
+  </p>
+</div>
+
+        <div class="firma">
+          Con todo mi amor,<br>
+          <span>Tu persona favorita</span>
+        </div>
+      </article>
+
+      <button class="boton-secundario" id="mostrarJuego">
+        Jugar un ratito ♥
+      </button>
+    </section>
+
+    <section class="juego-seccion oculta" id="juegoSeccion">
+
+  <div class="juego-introduccion">
+    <p class="etiqueta">Un pequeño descanso para tu mente</p>
+
+    <h2>Un jardín para ti</h2>
+
+    <p>
+      Atrapa los corazones y descubre los mensajes que preparé para ti.
+    </p>
+
+    <div class="marcador">
+      Corazones encontrados:
+      <span id="puntos">0</span>/10
+    </div>
+
+    <p class="mensaje-progreso" id="mensajeProgreso">
+      Cada corazón guarda unas palabras para ti.
+    </p>
+  </div>
+
+  <div class="zona-juego" id="zonaJuego">
+    <p class="mensaje-juego" id="mensajeJuego">
+      Atrapa un corazón para comenzar
+    </p>
+  </div>
+
+  <div class="mensaje-corazon oculta" id="mensajeCorazon"></div>
+
+  <div class="mensaje-final oculta" id="mensajeFinal">
+    <span class="corazon-grande">♥</span>
+
+    <h3>Creaste un pequeño jardín</h3>
+
+    <p>
+      Cada corazón representa una razón por la que te amo,
+      te admiro y quiero seguir acompañándote.
+    </p>
+
+    <div class="ramo-tulipanes">
+      <span>🌷</span>
+      <span>🌷</span>
+      <span>🌷</span>
+      <span>🌷</span>
+      <span>🌷</span>
+    </div>
+
+    <p class="frase-final">
+      Este ramo es para ti, Duby.<br>
+      No estás sola. Te amo y estoy contigo.
+    </p>
+  </div>
+</section>
+</main>
+</body>
+</html>
